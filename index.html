@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+         <!----link style css-->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+         <!----font awesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+         <!------nav bar section------->
+         <nav>
+            <div class="nav-container">
+                <div class="logo">
+                    <span>P</span>rotfolio
+                </div>
+                <div class="links">
+                    <div class="link"><a href="#home">Home</a></div>
+                    <div class="link"><a href="#about">About</a></div>
+                    <div class="link"><a href="#skills">Skills</a></div>
+                    <div class="link"><a href="#service">Service</a></div>
+                    <div class="link"><a href="#contact">Contact</a></div>
+                </div>
+                <i class="fa-solid fa-bars hambung" onclick="hambung()"></i>
+            </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Skill</a>
+                    <a href="#">Service</a>
+                    <a href="#">Contact</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+         </nav>
+        <!--------Home section------------->
+         <section id="home" class="home">
+            <div class="main-container">
+                <div class="image">
+                    <img src="./image/db3.jpg" alt="">
+                </div>
+           
+            <div class="content">
+                <h1 data-aos="fade-left">Hi...!I'm <span>vijayanirmala.s</span></h1>
+                <div class="typewriter">I'm a <span class="typewriter-text"></span>Web Developer<label for=""></label></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae consequuntur tenetur minus deleniti voluptatum maxime quisquam, 
+                    dignissimos veniam fuga, asperiores velit, doloremque ratione quod et nulla.
+                     Exercitationem natus sunt veritatis.</p>
+                     <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                     </div>
+                     <div class="btn">
+                     <button>Hire me</button>
+                    </div>
+            </div>
+        </div>
+
+         </section>
+        <!-------About section---------->
+        <section class="about" id="about">
+            <div class="content">
+                <div class="title"><span>About Me</span></div>
+                <div class="about-details">
+                    <div class="left">
+                        <img src="./image/dp2.webp" alt="">
+                    </div>
+                    <div class="right">
+                        <p class="about-text"> I am <span>viji</span> and i am<span>web developer & desgin</span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                             Autem accusantium quia quibusdam nemo perferendis nesciunt ab, 
+                            pariatur ipsa ad ducimus incidunt quos, repellat et. Nam quasi eaque atque consequuntur ducimus!</p>
+                            <div class="exp-area">
+                                <p class="exp">
+                                    Experience:
+                                    <span>3 Years</span>
+                                    </p>
+                                    <p class="exp">
+                                        Speciality:
+                                        <span>Web Designer & Developer</span>
+                                    </p>
+                                <p class="exp">
+                                    Address:
+                                    <span>Chennai,India</span>
+                                </p>
+                                <p class="exp">
+                                    Email:
+                                    <span>vijayanirmala.siv@gmail.com</span>
+                                </p>
+                                <p class="exp">
+                                    Phone:
+                                    <span>+91 741* *** ***</span>
+                                </p>
+                                <!--<p class="exp">
+                                    Freeolance:
+                                    <span>Availble</span>
+                                </p>-->
+                            </div>
+                            <div class="button">
+                                <button>View All Projects</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!----- My Skill Section------>
+    <section class="skills" id="skills">+
+            <div class="skill-area">
+                <h1 class="text"> MY SKILL</h1>
+                <div class="skill">
+                    <div class="skill-title">HTML</div>
+                    <div class="skill-bar"></div>                      
+                    <div class="html skill-fill"> 
+                        <span class="skill-percent">95%</span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-title">CSS</div>
+                    <div class="skill-bar"></div>
+                    <div class="css skill-fill"> 
+                        <span class="skill-percent">90%</span>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-title"> JavaScript</div>
+                    <div class="skill-bar"></div>
+                    <div class="js skill-fill"> 
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-title"> Photoshop</div>
+                        <div class="skill-bar"></div>
+                        <div class="ps skill-fill"> 
+                            <span class="skill-percent">50%</span>
+                        </div>
+                </div>
+            <img src="https://itxperts.co.in/blog/wp-content/uploads/2024/12/web-project-idea.webp" alt="">
+    </div>
+    </div>
+        </div>
+    </section>
+<!-----------service Section---------->
+<section class="service" id="service">
+    <div class="content">
+        <div class="title"><span>My Service</span></div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic"> Web Devlopment</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sed libero voluptatum harum, ab totam quis incidunt nostrum ea mollitia porro error laboriosam alias, 
+                        quisquam temporibus sequi, nesciunt ex! Fugit, facere.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="topic">Photoshop</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sed libero voluptatum harum, ab totam quis incidunt nostrum ea mollitia porro error laboriosam alias, 
+                        quisquam temporibus sequi, nesciunt ex! Fugit, facere.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="topic"> Font end Design</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Sed libero voluptatum harum, ab totam quis incidunt nostrum ea mollitia porro error laboriosam alias, 
+                        quisquam temporibus sequi, nesciunt ex! Fugit, facere.</p>
+                </div>
+                
+            </div>
+        
+    </div>
+</section>
+<!---------Contact ME Section------------>
+<section class="contact" id="contact">
+    <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+            <div class="topic">Have Any Project?</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Modi minus voluptate recusandae ipsa nihil. Expedita obcaecati provident
+                 omnis hic facere totam dolorum aperiam, perspiciatis aut at, magnam est, reiciendis neque!</p>
+        </div>
+        <div class="contact-from-container">
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"placeholder="Enter your Name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone"placeholder="Enter Phone Number" required>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="6" placeholder="your Message" required></textarea> 
+                <button type="submit" class="contact-btn">Send Message </button>
+             </form>
+        </div>
+    </div>
+</section>
+<!-------Footer Section ----------->
+<footer>
+    <div class="copy">
+        <span>Created By <a href="#">Procoder25</a>||125:2025 All Rights Reserved</span>
+    </div>
+</footer>
+
+    </body>
+    </html>
